@@ -18,13 +18,12 @@ function CustomDrawerContent({
   const insets = useSafeArea();
   const screens = [
     "Home",
-    "Woman",
-    "Man",
-    "Kids",
-    "New Collection",
-    "Profile",
-    "Settings",
-    "Components"
+    "Sorteio",
+    "jogadores",
+    "Sobre",
+    "Bem bolado",
+    "Localização",
+    "Configurações"
   ];
   return (
     <Block
@@ -82,12 +81,12 @@ function CustomDrawerContent({
       </Block>
       <Block flex={0.3} style={{ paddingLeft: 7, paddingRight: 14 }}>
         <DrawerCustomItem
-          title="Sign In"
+          title="LOGIN"
           navigation={navigation}
           focused={state.index === 8 ? true : false}
         />
         <DrawerCustomItem
-          title="Sign Up"
+          title="CADASTRO"
           navigation={navigation}
           focused={state.index === 9 ? true : false}
         />

@@ -21,10 +21,10 @@ const Drawer = createDrawerNavigator();
 
 const profile = {
   avatar: Images.Profile,
-  name: "Rachel Brown",
-  type: "Seller",
-  plan: "Pro",
-  rating: 4.8,
+  name: "Anderson Sena",
+  type: "jogador",
+  plan: "full",
+  rating: 3.0,
 };
 
 function ProfileStack(props) {
@@ -44,7 +44,7 @@ function ProfileStack(props) {
             <Header
               white
               transparent
-              title="Profile"
+              title="Perfil"
               scene={scene}
               navigation={navigation}
             />
@@ -115,7 +115,7 @@ function HomeStack(props) {
             <Header
               search
               tabs
-              title="Home"
+              title="HOME"
               navigation={navigation}
               scene={scene}
             />

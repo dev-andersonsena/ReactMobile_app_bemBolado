@@ -289,7 +289,7 @@ export default class Components extends React.Component {
               size={12}
               color={theme.COLORS.PRIMARY}
               onPress={() => navigation.navigate('Home')}>
-              View All
+              Veja todos!
             </Text>
           </Block>
           <Block row space="between" style={{ marginTop: theme.SIZES.BASE, flexWrap: 'wrap' }} >

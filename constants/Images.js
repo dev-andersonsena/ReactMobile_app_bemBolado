@@ -4,16 +4,16 @@ const Products = {
   'Accessories': 'https://source.unsplash.com//l1MCA0VyNrk/840x840',
 };
 
-const Profile = 'https://images.unsplash.com/photo-1512529920731-e8abaea917a5?fit=crop&w=840&q=80';
-const Avatar = 'https://images.unsplash.com/photo-1518725522904-4b3939358342?fit=crop&w=210&q=80';
+const Profile = 'https://media.licdn.com/dms/image/v2/D4D03AQHwW4pCgoVz7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730769224662?e=1738195200&v=beta&t=EUZFajOWZw1FrtrIunpd0HKqM0omEQO8MtaGsc8bKjY';
+const Avatar = 'https://media.licdn.com/dms/image/v2/D4D03AQHwW4pCgoVz7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730769224662?e=1738195200&v=beta&t=EUZFajOWZw1FrtrIunpd0HKqM0omEQO8MtaGsc8bKjY';
 
 const Viewed = [
-  'https://images.unsplash.com/photo-1508264443919-15a31e1d9c1a?fit=crop&w=240&q=80',
-  'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?fit=crop&w=240&q=80',
-  'https://images.unsplash.com/photo-1487376480913-24046456a727?fit=crop&w=240&q=80',
-  'https://images.unsplash.com/photo-1494894194458-0174142560c0?fit=crop&w=240&q=80',
-  'https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?fit=crop&w=240&q=80',
-  'https://images.unsplash.com/photo-1542068829-1115f7259450?fit=crop&w=240&q=80',
+  'https://th.bing.com/th/id/OIP.aesl0HE948J7Cxevz13GrQHaE8?rs=1&pid=ImgDetMain',
+  'https://th.bing.com/th/id/OIP.t7oGPSAvtuc04guz2l7vmAHaE8?w=1200&h=800&rs=1&pid=ImgDetMain',
+  'https://th.bing.com/th/id/OIP.NBjgPI4X8o8nebjE9yv8RAHaEc?w=1200&h=720&rs=1&pid=ImgDetMain',
+  'https://th.bing.com/th/id/OIP.I3T0n2vU_uo-WRq7j6g2MwHaE6?w=640&h=424&rs=1&pid=ImgDetMain',
+  'https://th.bing.com/th/id/OIP.MITzwCdpSDU3XzsoygGfgQHaE7?w=660&h=439&rs=1&pid=ImgDetMain',
+  'https://th.bing.com/th/id/R.c8e936a32e9eb6f9cd1c2e187566a612?rik=wxQmUaoSZaPhEg&riu=http%3a%2f%2fcdn.fansided.com%2fwp-content%2fuploads%2fgetty-images%2f2016%2f08%2f586213112-spbrazil-brasilia-olympics-mens-football-brazil-vs-south-africa-850x560.jpg&ehk=iw5YuijYlULlvualJK65IkpBR%2b%2bTJRvWEsn5xzk3dmA%3d&risl=&pid=ImgRaw&r=0',
 ];
 
 export default {

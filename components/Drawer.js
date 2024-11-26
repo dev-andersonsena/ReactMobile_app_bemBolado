@@ -6,12 +6,8 @@ import Icon from "./Icon";
 import materialTheme from "../constants/Theme";
 
 const proScreens = [
-  "Woman",
-  "Man",
-  "Kids",
-  "New Collection",
-  "Sign In",
-  "Sign Up"
+  
+  
 ];
 
 class DrawerItem extends React.Component {

@@ -55,7 +55,7 @@ export default class Pro extends React.Component {
                 style={styles.button}
                 color={materialTheme.COLORS.BUTTON_COLOR}
                 onPress={() => navigation.navigate('Home')}>
-                GET PRO VERSION
+                RETORNA
               </Button>
             </Block>
           </Block>

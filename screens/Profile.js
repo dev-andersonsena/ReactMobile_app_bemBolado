@@ -21,7 +21,7 @@ export default class Profile extends React.Component {
             imageStyle={styles.profileImage}>
             <Block flex style={styles.profileDetails}>
               <Block style={styles.profileTexts}>
-                <Text color="white" size={28} style={{ paddingBottom: 8 }}>Rachel Brown</Text>
+                <Text color="white" size={28} style={{ paddingBottom: 8 }}>Anderson Sena</Text>
                 <Block row space="between">
                   <Block row>
                     <Block middle style={styles.pro}>
@@ -49,20 +49,20 @@ export default class Profile extends React.Component {
             <Block row space="between" style={{ padding: theme.SIZES.BASE, }}>
               <Block middle>
                 <Text bold size={12} style={{marginBottom: 8}}>36</Text>
-                <Text muted size={12}>Orders</Text>
+                <Text muted size={12}>Quantidade</Text>
               </Block>
               <Block middle>
                 <Text bold size={12} style={{marginBottom: 8}}>5</Text>
-                <Text muted size={12}>Bids & Offers</Text>
+                <Text muted size={12}>Nota</Text>
               </Block>
               <Block middle>
                 <Text bold size={12} style={{marginBottom: 8}}>2</Text>
-                <Text muted size={12}>Messages</Text>
+                <Text muted size={12}>Lances</Text>
               </Block>
             </Block>
             <Block row space="between" style={{ paddingVertical: 16, alignItems: 'baseline' }}>
-              <Text size={16}>Recently viewed</Text>
-              <Text size={12} color={theme.COLORS.PRIMARY} onPress={() => this.props.navigation.navigate('Home')}>View All</Text>
+              <Text size={16}>Melhores Lances 2024</Text>
+              <Text size={12} color={theme.COLORS.PRIMARY} onPress={() => this.props.navigation.navigate('Home')}>Home</Text>
             </Block>
             <Block style={{ paddingBottom: -HeaderHeight * 2 }}>
               <Block row space="between" style={{ flexWrap: 'wrap' }} >
