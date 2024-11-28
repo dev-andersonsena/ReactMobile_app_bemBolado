@@ -35,7 +35,7 @@ export default class Profile extends React.Component {
                   <Block>
                     <Text color={theme.COLORS.MUTED} size={16}>
                       <Icon name="map-marker" family="font-awesome" color={theme.COLORS.MUTED} size={16} />
-                      {` `} Los Angeles, CA
+                      {` `} 
                       </Text>
                   </Block>
                 </Block>

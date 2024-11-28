@@ -18,7 +18,7 @@ export default class Home extends React.Component {
         color="black"
         style={styles.search}
         iconContent={iconCamera}
-        placeholder="What are you looking for?"
+        placeholder="busca aqui"
         onFocus={() => navigation.navigate('Pro')}
       />
     )
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     width: width,    
   },
   search: {
-    height: 48,
+    height: 58,
     width: width - 32,
     marginHorizontal: 16,
     borderWidth: 1,

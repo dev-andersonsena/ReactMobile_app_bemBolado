@@ -16,7 +16,8 @@ class Product extends React.Component {
       <Block row={horizontal} card flex style={[styles.product, styles.shadow, style]}>
         <TouchableWithoutFeedback onPress={() => navigation.navigate('Pro', { product: product })}>
           <Block flex style={[styles.imageContainer, styles.shadow]}>
-            <Image source={{ uri: product.image }} style={imageStyles} />
+            {/* Ajuste para usar o `require` corretamente */}
+            <Image source={product.image} style={imageStyles} />
           </Block>
         </TouchableWithoutFeedback>
         <TouchableWithoutFeedback onPress={() => navigation.navigate('Pro', { product: product })}>
@@ -36,8 +37,8 @@ const styles = StyleSheet.create({
   product: {
     backgroundColor: theme.COLORS.WHITE,
     marginVertical: theme.SIZES.BASE,
-    borderWidth: 0,
-    minHeight: 114,
+    borderWidth: 1,
+    minHeight: 110,
   },
   productTitle: {
     flex: 1,
@@ -56,8 +57,9 @@ const styles = StyleSheet.create({
     marginTop: -16,
   },
   horizontalImage: {
-    height: 122,
-    width: 'auto',
+    marginTop: 4,
+    height: 125,
+    width: 340,
   },
   fullImage: {
     height: 215,

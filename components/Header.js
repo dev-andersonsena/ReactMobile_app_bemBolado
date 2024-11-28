@@ -13,7 +13,7 @@ const ChatButton = ({isWhite, style, navigation}) => (
   <TouchableOpacity style={[styles.button, style]} onPress={() => navigation.navigate('Pro')}>
     <Icon
       family="GalioExtra"
-      size={16}
+      size={1}
       name="chat-33"
       color={theme.COLORS[isWhite ? 'WHITE' : 'ICON']}
     />
@@ -231,7 +231,7 @@ const styles = StyleSheet.create({
   },
   search: {
     height: 48,
-    width: width - 32,
+    width: width - 3,
     marginHorizontal: 16,
     borderWidth: 1,
     borderRadius: 3,

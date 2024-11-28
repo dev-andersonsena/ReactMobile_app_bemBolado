@@ -1,29 +1,27 @@
 export default [
   {
-    title: 'TIMES',
-    image: 'https://esporte.liste.com.br/wp-content/uploads/2020/01/Ouro-do-futebol.jpg'
+    title: '',
+    image: require('../../material-kit-react-native/assets/fotos/foto.png')
     
     
   },
   {
-    title: 'Find the cheapest deals on our range...',
+    title: '',
     image: 'https://source.unsplash.com/tb6ulgGY5Zc/840x840',
-    price: 220,
+    
   },
   {
-    title: 'Adidas Tango Terry Jersey',
-    image: 'https://source.unsplash.com/YHbcum51JB0/840x840',
-    price: 40,
+    title: '',
+    image: '',
+    
   },
   {
-    title: 'Internet of Things (IoT) is Here to Stay',
-    image: 'https://source.unsplash.com/I7BSOoPa5hM/840x840',
-    price: 188,
+    title: '',
+    image: '',
+    
     horizontal: true,
   },
   {
-    title: 'Coffee - A Drop of Happiness in a Cup',
-    image: 'https://source.unsplash.com/Ws4wd-vJ9M0/840x840',
-    price: 180,
+    
   },
 ];
